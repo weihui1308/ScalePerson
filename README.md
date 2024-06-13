@@ -1,7 +1,7 @@
 # The ScalePerson Dataset
 ScalePerson dataset is the first of its kind explicitly designed to evaluate physical adversarial attacks against person detection systems. It captures images of individuals at varying distances across diverse real-world scenarios, such as campuses, streets, forests, and indoor settings, ensuring a balanced distribution of person instances at each scale. The dataset includes detailed annotations covering a person's orientation, the number of persons in an image, scene type, and imaging device, facilitating a comprehensive quantitative assessment of attack effectiveness across multiple dimensions. This dataset aims to address the issue of uneven person scale distribution in existing datasets, providing a more realistic and challenging testbed for evaluating the impact of person scale on attack performance.
 
-For more information, see our [website](https://scaleperson.github.io/) and our paper: [ScalePerson: Towards Good Practices in Evaluating Physical Adversarial Attacks on Person Detection]([https://arxiv.org/abs/2304.03279](https://scaleperson.github.io/))
+For more information, see our [website](https://scaleperson.github.io/) and our paper: [ScalePerson: Towards Good Practices in Evaluating Physical Adversarial Attacks on Person Detection](https://scaleperson.github.io/)
 
 ## :toolbox: Setup
 Clone this repo:
