@@ -15,7 +15,7 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 
-Download the data:
+Download the dataset:
 
 - Google Drive:
 [Training Set](https://drive.google.com/file/d/1d98YsPT3a8jpnOBEG123GRFHlRogiDCv/view?usp=sharing) and [Validation Set](https://drive.google.com/file/d/1am_zjTd53L47rPlvR4us43KV25gwN4F6/view?usp=sharing).
