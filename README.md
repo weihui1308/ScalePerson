@@ -6,7 +6,7 @@ For more information, see our [website](https://scaleperson.github.io/) and our 
 ## :toolbox: Setup
 Clone this repo:
 ```bash
-git clone https://github.com/weihui1308/ScalePerson.git
+git clone git@github.com:weihui1308/ScalePerson.git
 cd ScalePerson
 ```
 
