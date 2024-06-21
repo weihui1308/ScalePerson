@@ -15,6 +15,11 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 
+Test code runtime environment:
+```bash
+python tools/test_env.py
+```
+
 Download the dataset:
 
 - Google Drive:
