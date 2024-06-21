@@ -20,12 +20,18 @@ Test code runtime environment:
 python tools/test_env.py
 ```
 
+## :floppy_disk: Download
 Download the dataset:
 
 - Google Drive:
 [Training Set](https://drive.google.com/file/d/1d98YsPT3a8jpnOBEG123GRFHlRogiDCv/view?usp=sharing) and [Validation Set](https://drive.google.com/file/d/1am_zjTd53L47rPlvR4us43KV25gwN4F6/view?usp=sharing).
 - Baidu Netdisk:
 [Training Set](https://pan.baidu.com/s/1ZPFjExOgLM2x5Bv29Cta8w?pwd=7384) and [Validation Set](https://pan.baidu.com/s/1Mq-vz8k-yjTZ_j_X79JXGA?pwd=4hxm).
+
+Dataset Licence:
+
+The dataset is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike (CC BY-NC-SA) License.
+
 
 <!--
 ## :pencil2: Citation
