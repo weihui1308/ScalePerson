@@ -28,10 +28,11 @@ Download the dataset:
 - Baidu Netdisk:
 [Training Set](https://pan.baidu.com/s/1ZPFjExOgLM2x5Bv29Cta8w?pwd=7384) and [Validation Set](https://pan.baidu.com/s/1Mq-vz8k-yjTZ_j_X79JXGA?pwd=4hxm).
 
-Dataset Licence:
+Dataset licence:
 
 The dataset is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike (CC BY-NC-SA) License.
 
+## :trophy: Evaluation
 
 <!--
 ## :pencil2: Citation
