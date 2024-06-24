@@ -30,7 +30,7 @@ Download the dataset:
 
 Dataset licence:
 
-The dataset is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike (CC BY-NC-SA) License.
+The dataset is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike (CC BY-NC-SA)](https://creativecommons.org/licenses/by-nc-sa/4.0/) License.
 
 ## :trophy: Evaluation
 
