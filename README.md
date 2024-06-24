@@ -30,9 +30,12 @@ Download the dataset:
 
 Dataset licence:
 
-The dataset is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike (CC BY-NC-SA)](https://creativecommons.org/licenses/by-nc-sa/4.0/) License.
+The dataset is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike (CC BY-NC-SA)](https://creativecommons.org/licenses/by-nc-sa/4.0/ License).
 
 ## :trophy: Evaluation
+```bash
+python compute_metric.py --json_gt INRIAPerson_coco_annotations.json --json_benign "/home/yolov5s_on_InriaPerson_predictions.json" --json_attack "/home/yolov5s_on_InriaPerson_with_patch_predictions.json" --image_suffix .png
+```
 
 <!--
 ## :pencil2: Citation
