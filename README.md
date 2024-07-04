@@ -33,6 +33,13 @@ Dataset licence:
 The dataset is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike (CC BY-NC-SA)](https://creativecommons.org/licenses/by-nc-sa/4.0/ License).
 
 ## :trophy: Evaluation
+1. Add adversarial perturbations, such as adversarial patches, to the dataset.
+```bash
+python add_patch_toDataset.py --image_path "/home/dataset/images/val/" --label_path "/home/dataset/labels/val/" --output_dir "/home/dataset/images/val_with_attack/" --ratio_h 0.23 --ratio_w 0.17 --patch_path patches/advTshirt.png
+```
+ratio_h and ratio_w control the height and width of the adversarial patch, respectively.
+2. 
+
 ```bash
 python eval/calculate_metric.py --json_gt INRIAPerson_coco_annotations.json --json_benign "/home/yolov5s_on_InriaPerson_predictions.json" --json_attack "/home/yolov5s_on_InriaPerson_with_patch_predictions.json" --image_suffix .png
 ```
