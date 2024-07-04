@@ -38,8 +38,10 @@ The dataset is licensed under the [Creative Commons Attribution-NonCommercial-Sh
 python add_patch_toDataset.py --image_path "/home/dataset/images/val/" --label_path "/home/dataset/labels/val/" --output_dir "/home/dataset/images/val_with_attack/" --ratio_h 0.23 --ratio_w 0.17 --patch_path patches/advTshirt.png
 ```
 ratio_h and ratio_w control the height and width of the adversarial patch, respectively.
-2. 
 
+2. To perform inference on the target dataset and save the results to a JSON file, using YOLOv5 as an example:
+
+3. Compute the Average Precision (AP) and Attack Success Rate (ASR).
 ```bash
 python eval/calculate_metric.py --json_gt INRIAPerson_coco_annotations.json --json_benign "/home/yolov5s_on_InriaPerson_predictions.json" --json_attack "/home/yolov5s_on_InriaPerson_with_patch_predictions.json" --image_suffix .png
 ```
