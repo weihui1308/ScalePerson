@@ -30,7 +30,7 @@ Download the dataset:
 
 Dataset licence:
 
-The dataset is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike (CC BY-NC-SA)](https://creativecommons.org/licenses/by-nc-sa/4.0/ License).
+The dataset is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike (CC BY-NC-SA) License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
 ## :trophy: Evaluation
 1. Add adversarial perturbations, such as adversarial patches, to the dataset.
