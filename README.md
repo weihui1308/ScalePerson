@@ -39,8 +39,10 @@ python add_patch_toDataset.py --image_path "/home/dataset/images/val/" --label_p
 ```
 ratio_h and ratio_w control the height and width of the adversarial patch, respectively.
 
-2. To perform inference on the target dataset and save the results to a JSON file, using YOLOv5 as an example:
-
+2. To perform inference on the target dataset and save the results to a JSON file, using Faster R-CNN as an example:
+```bash
+python inference.py --checkpoint "/home/faster_rcnn_r50.pth" --config dataset/config.py --img_folder "/home/val/" --save_path "runs/fasterRCNN.json"
+```
 3. Compute the Average Precision (AP) and Attack Success Rate (ASR).
 ```bash
 python eval/calculate_metric.py --json_gt INRIAPerson_coco_annotations.json --json_benign "/home/yolov5s_on_InriaPerson_predictions.json" --json_attack "/home/yolov5s_on_InriaPerson_with_patch_predictions.json" --image_suffix .png
