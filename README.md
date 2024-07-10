@@ -37,7 +37,7 @@ The dataset is licensed under the [Creative Commons Attribution-NonCommercial-Sh
 ## :trophy: Evaluation
 1. Add adversarial perturbations, such as adversarial patches, to the dataset.
 ```bash
-python add_patch_toDataset.py --image_path "/home/dataset/images/val/" --label_path "/home/dataset/labels/val/" --output_dir "/home/dataset/images/val_with_attack/" --ratio_h 0.23 --ratio_w 0.17 --patch_path patches/advTshirt.png
+python eval/add_patch_toDataset.py --image_path "/home/dataset/images/val/" --label_path "/home/dataset/labels/val/" --output_dir "/home/dataset/images/val_with_attack/" --ratio_h 0.23 --ratio_w 0.17 --patch_path patches/advTshirt.png
 ```
 ratio_h and ratio_w control the height and width of the adversarial patch, respectively.
 
