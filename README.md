@@ -43,7 +43,7 @@ ratio_h and ratio_w control the height and width of the adversarial patch, respe
 
 2. To perform inference on the target dataset and save the results to a JSON file, using Faster R-CNN as an example:
 ```bash
-python inference.py --checkpoint "/home/faster_rcnn_r50.pth" --config dataset/config.py --img_folder "/home/val/" --save_path "runs/fasterRCNN.json"
+python detector/inference.py --checkpoint "/home/faster_rcnn_r50.pth" --config dataset/config.py --img_folder "/home/val/" --save_path "runs/fasterRCNN.json"
 ```
 3. Compute the Average Precision (AP) and Attack Success Rate (ASR).
 ```bash
